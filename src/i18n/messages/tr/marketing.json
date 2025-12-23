@@ -1,0 +1,10 @@
+{
+  "hero": {
+    "headline": "Orbitus ile modern web",
+    "cta": "Başlamaya başla"
+  },
+  "features": {
+    "scalability": "MVP'den enterprise'a ölçeklenecek şekilde inşa edildi",
+    "velocity": "Orbitus bileşenleri ve core araçlarıyla daha hızlı ship edin"
+  }
+}

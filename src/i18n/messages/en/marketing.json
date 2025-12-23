@@ -1,0 +1,10 @@
+{
+  "hero": {
+    "headline": "Orbitus for the modern web",
+    "cta": "Start building"
+  },
+  "features": {
+    "scalability": "Built to scale from MVP to enterprise",
+    "velocity": "Ship faster with Orbitus components and core utilities"
+  }
+}

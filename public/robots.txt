@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sitkicoban.com.orbitus.dev/sitemap.xml

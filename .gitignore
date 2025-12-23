@@ -68,7 +68,6 @@ web_modules/
 # dotenv environment variable files
 .env
 .env.*
-!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -137,3 +136,26 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Observability - Grafana/Tempo/Prometheus data
+observability/grafana/data/
+observability/tempo/data/
+observability/prometheus/data/
+
+# Storybook static build output
+storybook-static/
+packages/storybook/storybook-static/
+
+# Storybook synced files (generated from assets and app)
+packages/storybook/public/
+packages/storybook/src/styles/
+
+# Pagefind search index (auto-generated)
+apps/docs/public/_pagefind/
+
+# Local backups
+.backup/
+
+# MacOs
+.DS_Store
+Thumbs.db

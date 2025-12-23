@@ -1,0 +1,82 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.rulers": [
+    120
+  ],
+  "doppler.autocomplete.enable": true,
+  "doppler.hover.enable": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "continue.contextProviders": [
+    {
+      "name": "codebase",
+      "params": {}
+    },
+    {
+      "name": "file",
+      "params": {
+        "files": [
+          ".docs/.ai-coding-prompt.md"
+        ]
+      }
+    }
+  ],
+  "files.associations": {
+    ".ai-coding-prompt.md": "markdown"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.requireConfig": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.automaticExpansion": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "package.json": "pnpm-lock.yaml, .npmrc, .nvmrc, .npmrc.ci",
+    ".eslintrc.json": ".eslintignore",
+    ".prettierrc.json": ".prettierignore",
+    "tsconfig.json": "tsconfig.*.json, tsconfig.tsbuildinfo",
+    ".gitattributes": ".gitignore",
+    "README.md": "SECURITY.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, CHANGELOG.md, LICENSE",
+    "vitest.config.ts": "vitest.setup.ts",
+    ".env": ".env.example, .env.json",
+    "instrumentation.ts": "instrumentation.node.ts",
+    "Dockerfile": ".dockerignore",
+    "vercel.json": ".vercelignore",
+    "next.config.ts": "next-env.d.ts"
+  },
+  "git.enableCommitSigning": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/build": true,
+    "pnpm-lock.yaml": true
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "i18n-ally.localesPaths": [
+    "src/i18n",
+    "src/i18n/messages"
+  ]
+}
